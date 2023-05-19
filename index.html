@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="music.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="music">
+        <div class="wrapper">
+            <div class="tune">
+            <div class="playing">Tocar x Desligar</div>
+            <div class="join-art"></div>
+            <div class="join-name">Aderir Nome</div>
+            <div class="join-artist">Aderir Artista</div>
+           
+            <div class="slider_container">
+               <div class="current-time">00:00</div>
+                <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+                <div class="total-duration">00:00</div>
+           </div>
+
+           <div class="slider_container">
+               <i class="fa fa-volume-down"></i>
+                <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+                <i class="fa fa-volume-up"></i>
+           </div>
+
+           <div class="buttons">
+               <div class="random-join" onclick="randomJoin()">
+                   <i class="fas fa-random fa-2x" title="random"></i>
+               </div>
+               <div class="prev-join" onclick="prevJoin()">
+                    <i class="fa fa-step-backward fa-2x"></i>
+                </div>
+                <div class="playpause-join" onclick="playpauseJoin()">
+                    <i class="fa fa-play-circle fa-5x"></i>
+                </div>
+                <div class="next-join" onclick="nextJoin()">
+                    <i class="fa fa-step-forward fa-2x"></i>
+                </div>
+                <div class="repeat-join" onclick="repeatJoin()">
+                    <i class="fa fa-repeat fa-2x" title="repeat"></i>
+                </div>
+           </div>
+
+           <div id="wave">
+            <span class="hit"></span>
+            <span class="hit"></span>
+            <span class="hit"></span>
+            <span class="hit"></span>
+            <span class="hit"></span>
+            <span class="hit"></span>
+            <span class="hit"></span>
+        </div>  
+
+         </div>
+
+        </div>
+     </div>
+    
+</body>
+</html>
