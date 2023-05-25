@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    
+    background: linear-gradient(to right,#9a1d86, #1595be);
+    font-weight: bold;
     }
 
 
@@ -15,12 +16,22 @@ body {
     
 }
 
+@media (max-width: 767px) {
+  /* Estilos específicos para telas menores que 768px */
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Estilos específicos para telas entre 768px e 1023px */
+}
+
+
 .wrapper{
 
     border: 1px solid transparent;
     padding: 30px;
     border-radius: 20px;
-    background-color: #ddd;
+    background-color: #87CEFA;  
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
@@ -212,3 +223,4 @@ body {
 .stroke:nth-child(7){
       animation-delay: 0s;
  }
+

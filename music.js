@@ -26,41 +26,36 @@ let updateTimer;
 const music_list=[
 
   
-  
       {
-        img:'imagem/gato.png',
+        img:'imagem/gato.jpg',
         name:'Cat walk',
         artist:'Tom',
-        music:'musica/mixkit-cat-walk-371'
+        music:'musica/mixkit-cat-walk-371.mp3'
       },
-    
       {
-        img:'imagem/hiphop.png',
+        img:'imagem/hiphop.jpg',
         name:'Hip-hop',
         artist:'Descohecido',
-        music:'musica/mixkit-hip-hop-02-738'
+        music:'musica/mixkit-hip-hop-02-738.mp3'
       },
-
       {
-        img:'imagem/arlivre.png',
+        img:'imagem/arlivre.jpg',
         name:'Raising me',
         artist:'Turma',
-        music:'musica/mixkit-raising-me-higher'
+        music:'musica/mixkit-raising-me-higher-34.mp3'
       },
-    
       {
-        img:'imagem/producao.png',
+        img:'imagem/producao.jpg',
         name:'Tech house',
         artist:'Tom',
-        music:'musica/mixkit-tech-house-vibes-130'
+        music:'musica/mixkit-tech-house-vibes-130.mp3'
       },
     
 
 ];
   
 
-
-
+loadJoin(join_index);
 
 function loadJoin(join_index){
     clearInterval(updateTimer);
@@ -204,5 +199,4 @@ function setUpdate(){
 
 
 
-
-
+     
