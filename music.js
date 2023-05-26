@@ -40,14 +40,14 @@ const music_list=[
       },
       {
         img:'imagem/arlivre.jpg',
-        name:'Raising me',
-        artist:'Turma',
+        name:'Raising me Higher',
+        artist:'ASR',
         music:'musica/mixkit-raising-me-higher-34.mp3'
       },
       {
         img:'imagem/producao.jpg',
-        name:'Tech house',
-        artist:'Tom',
+        name:'Tech house Vibes',
+        artist:'Energia',
         music:'musica/mixkit-tech-house-vibes-130.mp3'
       },
     
