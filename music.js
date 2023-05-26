@@ -34,8 +34,8 @@ const music_list=[
       },
       {
         img:'imagem/hiphop.jpg',
-        name:'Hip-hop',
-        artist:'Descohecido',
+        name:'Hip-Hop',
+        artist:'Free',
         music:'musica/mixkit-hip-hop-02-738.mp3'
       },
       {
@@ -67,7 +67,7 @@ function loadJoin(join_index){
     join_art.style.backgroundImage = "url(" + music_list[join_index].img + ")";
     join_name.textContent = music_list[join_index].name;
     join_artist.textContent = music_list[join_index].artist;
-    playing.textContent = "Playing music " + (join_index + 1) + " of " + music_list.length;
+    playing.textContent = "Playing Music " + (join_index + 1) + " of " + music_list.length;
 
     updateTimer = setInterval(setUpdate, 1000);
 
